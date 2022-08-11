@@ -1,0 +1,83 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Quicksand:wght@300&display=swap');
+
+/* Global */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+/* body */
+body {
+    background-image: url('../images/car-pic.jpg');
+    background-size: cover;
+    background-color: black;
+    font-family: 'Quicksand',sans-serif;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    color: #ffff;
+ }
+
+ /*Style Home page intro text container*/
+ .outer-container {
+    width: 80%;
+    background-color: #646464;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px 2px;
+    justify-content: center;
+    margin: auto;
+ }
+
+ /*Style title*/
+ .title {
+    color: #ffff;
+   font-family: 'Oswald',sans-serif;
+    font-size: 300%;
+   text-decoration: none;
+   text-align: center;
+}
+
+/*Style sub-heading*/
+h2 {
+    font-size: 225%;
+    font-weight: bold;
+    text-align: center;
+}
+
+/*Style introduction text*/
+.intro-text {
+    font-size: 150%;
+    text-align: center;
+}
+
+/*Style button container*/
+ .button-container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 30px;
+ }
+
+ .start-btn, .back-btn, .play-btn {
+    font-size: 150%;
+   font-family: 'Quicksand', sans-serif;
+   font-weight: bold;
+   padding: 10px;
+   margin: 10px;
+   border-radius: 5px;
+ }
+
+ .start-btn:hover, .back-btn:hover, .play-btn:hover {
+    color: white;
+    background-color: black;
+ }
+
+ /*Hide from Display*/
+ .hide {
+    display: none;
+ }
