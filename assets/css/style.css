@@ -49,6 +49,12 @@ h2 {
     text-align: center;
 }
 
+/*Style how to play*/
+p {
+    font-size: 100%;
+    font-weight: bold;
+ }
+
 /*Style introduction text*/
 .intro-text {
     font-size: 150%;
