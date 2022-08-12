@@ -20,11 +20,13 @@ const questionCount = document.getElementById('question-count');
 const scoreCount = document.getElementById('score-count');
 const timer = document.getElementById('timer-count');
 
+// EVENT LISTENERS
 play.addEventListener('click', howToPlay);
 back.addEventListener('click', backToHome);
 start.addEventListener('click', startGame);
 next.addEventListener('click', nextQuestion);
 
+// HOW TO PLAY FUNCTION
 function howToPlay() {
     heading.classList.add('hide');
     introText.classList.add('hide');
@@ -37,12 +39,14 @@ function howToPlay() {
         <p>You get 10 points for each correct answer</p>
         <p>When the next button appears, click it to continue to the next question</p>
       `;
-}
+  }
 
+  // BACK TO HOME FUNCTION
   function backToHome(){
   window.open('index.html', '_self');
   }
 
+  // QUESTIONS ARRAY
   const questions = [  
     {
      question : 'What is the maximum speed limit on motorways?',
@@ -171,6 +175,7 @@ let questionAvailable = [];
 let score = 0;
 let questionNo = 1;
 
+// START GAME FUNCTION
 function startGame() {
     outerContainer.classList.add('hide');
     questionContainer.classList.remove('hide');
@@ -179,7 +184,8 @@ function startGame() {
     currentQuestion = questionAvailable[0];
     getQuestion(currentQuestion);
    }
-  
+ 
+// GET QUESTION FUNCTION
 function getQuestion(){
   question.innerHTML = currentQuestion.question;
   answer1.innerHTML = currentQuestion.answer1;
@@ -188,7 +194,7 @@ function getQuestion(){
   answer4.innerHTML = currentQuestion.answer4;  
 }
  
-/* SHUFFLE THE ANSWERS ARRAY FUNCTION - using Fisher Yates Shuffle*/
+// SHUFFLE THE QUESTIONS ARRAY FUNCTION - using Fisher Yates Shuffle
 // researched on W3Schools and adapted as shown on youtube tutorial - 
 // https://www.youtube.com/watch?v=eATLMjs7y4s&list=PL5egNEXQTWmFHAoWFVRLNAvD-9zzyWVxA&index=3
 
@@ -199,10 +205,18 @@ function shuffleQuestion(questionAvailable) {
   }
  }
 
+ //NEXT QUESTION FUNCTION - run when next button pressed
 function nextQuestion() {
   questionAvailable.shift();
   currentQuestion = questionAvailable[0];
-  getQuestion(currentQuestion); 
+  getQuestion(currentQuestion);
+  questionIncrement();
+ }
+
+ // QUESTION NUMBER INCREMENT
+ function questionIncrement() {
+  ++questionNo;
+  questionCount.innerHTML = questionNo;
  }
 
 function checkAnswer() {
