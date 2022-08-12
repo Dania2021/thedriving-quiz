@@ -174,6 +174,8 @@ let currentQuestion = {};
 let questionAvailable = [];
 let score = 0;
 let questionNo = 1;
+let timeSecond = 60;
+let intervalTimer;
 
 // START GAME FUNCTION
 function startGame() {
@@ -181,8 +183,10 @@ function startGame() {
     questionContainer.classList.remove('hide');
     questionAvailable =[...questions];
     shuffleQuestion(questionAvailable);
+    intervalTimer = setInterval(timerCount, 1000);
     currentQuestion = questionAvailable[0];
     getQuestion(currentQuestion);
+    
    }
  
 // GET QUESTION FUNCTION
@@ -218,6 +222,17 @@ function nextQuestion() {
   ++questionNo;
   questionCount.innerHTML = questionNo;
  }
+
+ //TIMER COUNT FUNCTION
+ function timerCount() {
+  --timeSecond;
+  timer.innerHTML = timeSecond;
+  if(timeSecond <= 0) {
+    clearInterval(intervalTimer);
+  }
+}
+
+
 
 function checkAnswer() {
 
