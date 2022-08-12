@@ -175,6 +175,7 @@ function startGame() {
     outerContainer.classList.add('hide');
     questionContainer.classList.remove('hide');
     questionAvailable =[...questions];
+    shuffleQuestion(questionAvailable);
     currentQuestion = questionAvailable[0];
     getQuestion(currentQuestion);
    }
@@ -186,6 +187,17 @@ function getQuestion(){
   answer3.innerHTML = currentQuestion.answer3;
   answer4.innerHTML = currentQuestion.answer4;  
 }
+ 
+/* SHUFFLE THE ANSWERS ARRAY FUNCTION - using Fisher Yates Shuffle*/
+// researched on W3Schools and adapted as shown on youtube tutorial - 
+// https://www.youtube.com/watch?v=eATLMjs7y4s&list=PL5egNEXQTWmFHAoWFVRLNAvD-9zzyWVxA&index=3
+
+function shuffleQuestion(questionAvailable) {
+  for (let i = questionAvailable.length - 1; i >= 0; i --) {
+    const s = Math.floor(Math.random() * (i + 1));
+    [questionAvailable[i], questionAvailable[s]] = [questionAvailable[s], questionAvailable[i]];
+  }
+ }
 
 function nextQuestion() {
   questionAvailable.shift();
