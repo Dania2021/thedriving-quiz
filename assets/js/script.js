@@ -215,6 +215,10 @@ function nextQuestion() {
   currentQuestion = questionAvailable[0];
   getQuestion(currentQuestion);
   questionIncrement();
+  clearInterval(intervalTimer);
+  timer.innerHTML = 60;
+  timeSecond = 60;
+  intervalTimer = setInterval(timerCount, 1000);
  }
 
  // QUESTION NUMBER INCREMENT
