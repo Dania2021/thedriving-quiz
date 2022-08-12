@@ -179,7 +179,11 @@ function startGame() {
    }
   
 function getQuestion(){
-
+  question.innerHTML = currentQuestion.question;
+  answer1.innerHTML = currentQuestion.answer1;
+  answer2.innerHTML = currentQuestion.answer2;
+  answer3.innerHTML = currentQuestion.answer3;
+  answer4.innerHTML = currentQuestion.answer4;  
 }
 
 function nextQuestion() {
