@@ -229,10 +229,14 @@ function nextQuestion() {
   timer.innerHTML = timeSecond;
   if(timeSecond <= 0) {
     clearInterval(intervalTimer);
+    timeOut();
   }
 }
 
-
+//TIME OUT FUNCTION
+function timeOut () {
+  question.innerHTML = 'Sorry!!! Your time is out';
+  }
 
 function checkAnswer() {
 
