@@ -16,9 +16,9 @@
     <div> 
          <!--Heading--> 
         <a href="index.html" class="title"><h1>Driving Quiz</h1></a>
-        <!--Home page Intro text-->
-        <div class="outer-container">
-           <div class="intro-div">
+<!--Home page Intro text-->
+    <div class="outer-container">
+        <div class="intro-div">
             <h2 class="sub-heading">Welcome to the Driving Quiz</h2>
             <p class="intro-text">Do you want to test yourself how much you know about driving?<br><br>
             Use the button below to navigate to the page you would like to view. You can return to this home page by simply clicking the title on the top of each page.</p>
@@ -31,10 +31,37 @@
           </div>
        </div>  
        
-       <div class="question-container"></div>
-       <div class="end-container "></div>
-
+<!---Quiz Container-->
+   <div class="question-container hide" id="question-container">
+      <div class="counter-area">
+        <div class="question-no">
+            <p class="question-area">Question No. <span id="question-count">1</span></p>
+        </div>
+        <div class="timer">
+            <p class="timer-area">Timer <span id="timer-count">60</span></p>
+        </div>
+        <div class="score">
+            <p class="score-area">Score <span id="score-count">0</span></p>
+        </div>
     </div>
+    <div class="question-div">
+        <h2 id="question">Question</h2>
+        <div class="answer-div">
+           <button class="ans-btn" id="answer-one">Answer 1</button>
+           <button class="ans-btn" id="answer-two">Answer 2</button>
+           <button class="ans-btn" id="answer-three">Answer 3</button>
+           <button class="ans-btn" id="answer-four">Answer 4</button>
+        </div>
+        <div class="button-div">
+            <button class="next-btn hide" id="next-btn">Next</button>
+            <button class="end-btn hide" id="end-btn">End</button>
+        </div>
+    </div>
+ </div>
+
+ <div class="end-container "></div>
+
+</div>
 
     <!--JavaScript Link-->
     <script defer src="assets/js/script.js"></script>
