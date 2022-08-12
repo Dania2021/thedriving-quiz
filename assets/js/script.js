@@ -23,6 +23,7 @@ const timer = document.getElementById('timer-count');
 play.addEventListener('click', howToPlay);
 back.addEventListener('click', backToHome);
 start.addEventListener('click', startGame);
+next.addEventListener('click', nextQuestion);
 
 function howToPlay() {
     heading.classList.add('hide');
@@ -187,8 +188,10 @@ function getQuestion(){
 }
 
 function nextQuestion() {
-
-}
+  questionAvailable.shift();
+  currentQuestion = questionAvailable[0];
+  getQuestion(currentQuestion); 
+ }
 
 function checkAnswer() {
 
