@@ -23,7 +23,7 @@ body {
  }
 
  /*Style Home page intro text container*/
- .outer-container {
+ .outer-container, .question-container {
     width: 80%;
     background-color: #646464;
     border-radius: 5px;
@@ -69,7 +69,8 @@ p {
    gap: 30px;
  }
 
- .start-btn, .back-btn, .play-btn {
+ /*Style buttons*/
+ .start-btn, .back-btn, .play-btn, .next-btn, .end-btn {
     font-size: 150%;
    font-family: 'Quicksand', sans-serif;
    font-weight: bold;
@@ -78,7 +79,7 @@ p {
    border-radius: 5px;
  }
 
- .start-btn:hover, .back-btn:hover, .play-btn:hover {
+ .start-btn:hover, .back-btn:hover, .play-btn:hover, .next-btn:hover, .end-btn:hover {
     color: white;
     background-color: black;
  }
@@ -87,3 +88,27 @@ p {
  .hide {
     display: none;
  }
+
+ /*Style counter area*/
+ .counter-area {
+    display: flex;
+   justify-content: space-between;
+  }
+ 
+  p.question-area, p.score-area, p.timer-area {
+    font-size: 100%;
+  }
+ 
+  /*Style answer buttons*/
+  .ans-btn {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 20px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 150%;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+  }
