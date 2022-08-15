@@ -9,6 +9,7 @@ const heading = document.querySelector('.sub-heading');
 const introText = document.querySelector('.intro-text');
 const intro = document.querySelector('.intro-div');
 const questionContainer = document.querySelector('.question-container');
+
 const question = document.getElementById('question');
 const answerBtn = document.getElementsByClassName('ans-btn');
 const answer1 = document.getElementById('answer-one');
@@ -214,6 +215,17 @@ function nextQuestion() {
   questionAvailable.shift();
   currentQuestion = questionAvailable[0];
   getQuestion(currentQuestion);
+  for (let answer of answerBtn) {
+    if(answer.classList.contains('right')) {
+      answer.classList.remove('right');
+    } else {
+      answer.classList.remove('wrong');
+    }
+  }
+  for(let answer of answerBtn) {
+    answer.addEventListener('click', checkAnswer);
+  }
+  next.classList.add('hide');
   questionIncrement();
   clearInterval(intervalTimer);
   timer.innerHTML = 60;
@@ -240,12 +252,36 @@ function nextQuestion() {
 //TIME OUT FUNCTION
 function timeOut () {
   question.innerHTML = 'Sorry!!! Your time is out';
+}
+
+
+  for (let answer of answerBtn) {
+    answer.addEventListener('click', checkAnswer);
   }
+  
+//CHECK ANSWER FUNCTION
+  function checkAnswer() {
+     if(this.innerHTML === currentQuestion.right) {
+      clearInterval(intervalTimer);
+      this.classList.add('right');
+      for (let answer of answerBtn) {
+         answer.removeEventListener('click', checkAnswer);
+         }
+        } else {
+          clearInterval(intervalTimer);
+     this.classList.add('wrong');
+     for (let answer of answerBtn) {
+      answer.removeEventListener('click', checkAnswer);
+      }
+     }
+     if(questionNo <= 14) {
+      next.classList.remove('hide');
+      } 
+      else {  
+        end.classList.remove('hide');
+      }
+    }
 
-function checkAnswer() {
-
-}
-
-function endGame() {
-
-}
+    function endGame() {
+      
+    }
