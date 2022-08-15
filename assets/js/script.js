@@ -9,6 +9,8 @@ const heading = document.querySelector('.sub-heading');
 const introText = document.querySelector('.intro-text');
 const intro = document.querySelector('.intro-div');
 const questionContainer = document.querySelector('.question-container');
+const endContainer = document.querySelector('.end-container');
+const endScore = document.getElementById('end-score');
 
 const question = document.getElementById('question');
 const answerBtn = document.getElementsByClassName('ans-btn');
@@ -26,6 +28,7 @@ play.addEventListener('click', howToPlay);
 back.addEventListener('click', backToHome);
 start.addEventListener('click', startGame);
 next.addEventListener('click', nextQuestion);
+end.addEventListener('click', endGame);
 
 // HOW TO PLAY FUNCTION
 function howToPlay() {
@@ -283,13 +286,16 @@ function timeOut () {
       }
     }
 
-    //SCORE INCREMENT FUNCTION
+//SCORE INCREMENT FUNCTION
     function scoreIncrement() {
       score = score + 10;
       scoreCount.innerHTML = score;
      }
   
-
-    function endGame() {
-
+//END GAME FUNCTION
+     function endGame() {
+      questionContainer.classList.add('hide');
+      endContainer.classList.remove('hide');
+      endScore.innerHTML = score;
     }
+    
