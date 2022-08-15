@@ -263,6 +263,7 @@ function timeOut () {
   function checkAnswer() {
      if(this.innerHTML === currentQuestion.right) {
       clearInterval(intervalTimer);
+      scoreIncrement();
       this.classList.add('right');
       for (let answer of answerBtn) {
          answer.removeEventListener('click', checkAnswer);
@@ -282,6 +283,13 @@ function timeOut () {
       }
     }
 
+    //SCORE INCREMENT FUNCTION
+    function scoreIncrement() {
+      score = score + 10;
+      scoreCount.innerHTML = score;
+     }
+  
+
     function endGame() {
-      
+
     }
