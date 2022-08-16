@@ -3,6 +3,7 @@ const start = document.getElementById('start-btn');
 const back = document.getElementById('back-btn');
 const next = document.getElementById('next-btn');
 const end = document.getElementById('end-btn');
+const playAgain = document.getElementById('again-btn');
 
 const outerContainer = document.querySelector('.outer-container');
 const heading = document.querySelector('.sub-heading');
@@ -11,6 +12,7 @@ const intro = document.querySelector('.intro-div');
 const questionContainer = document.querySelector('.question-container');
 const endContainer = document.querySelector('.end-container');
 const endScore = document.getElementById('end-score');
+const endQuote = document.getElementById('end-quote');
 
 const question = document.getElementById('question');
 const answerBtn = document.getElementsByClassName('ans-btn');
@@ -29,6 +31,7 @@ back.addEventListener('click', backToHome);
 start.addEventListener('click', startGame);
 next.addEventListener('click', nextQuestion);
 end.addEventListener('click', endGame);
+playAgain.addEventListener('click', backToHome);
 
 // HOW TO PLAY FUNCTION
 function howToPlay() {
@@ -248,17 +251,12 @@ function nextQuestion() {
   timer.innerHTML = timeSecond;
   if(timeSecond <= 0) {
     clearInterval(intervalTimer);
-    timeOut();
+    endGame();
   }
 }
 
-//TIME OUT FUNCTION
-function timeOut () {
-  question.innerHTML = 'Sorry!!! Your time is out';
-}
 
-
-  for (let answer of answerBtn) {
+for (let answer of answerBtn) {
     answer.addEventListener('click', checkAnswer);
   }
   
@@ -297,5 +295,15 @@ function timeOut () {
       questionContainer.classList.add('hide');
       endContainer.classList.remove('hide');
       endScore.innerHTML = score;
-    }
-    
+      if (timeSecond === 0) {
+        endQuote.innerHTML = 'Sorry!!! your time is out try again';
+       } else if (score <= 40) {
+         endQuote.innerHTML = 'A little study is needed';
+       } else if (score <= 80) {
+         endQuote.innerHTML = "You're almost halfway";
+       } else if (score <= 120) {
+         endQuote.innerHTML = 'Good job you can do better';
+       } else {
+         endQuote.innerHTML = 'Excellent, you played very well';
+       }
+ }    
