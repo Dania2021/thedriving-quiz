@@ -49,6 +49,12 @@ h2 {
     text-align: center;
 }
 
+h3 {
+   font-size: 200%;
+   font-weight: bold;
+   text-align: center;
+}
+
 /*Style how to play*/
 p {
     font-size: 100%;
@@ -70,8 +76,8 @@ p {
  }
 
  /*Style buttons*/
- .start-btn, .back-btn, .play-btn, .next-btn, .end-btn {
-    font-size: 150%;
+ .start-btn, .back-btn, .play-btn, .next-btn, .end-btn, .again-btn {
+   font-size: 150%;
    font-family: 'Quicksand', sans-serif;
    font-weight: bold;
    padding: 10px;
@@ -79,7 +85,10 @@ p {
    border-radius: 5px;
  }
  
- .start-btn:hover, .back-btn:hover, .play-btn:hover, .next-btn:hover, .end-btn:hover {
+ .again-btn {
+   margin-left: 105px;
+ }
+ .start-btn:hover, .back-btn:hover, .play-btn:hover, .next-btn:hover, .end-btn:hover, .again-btn:hover {
     color: white;
     background-color: black;
  }
