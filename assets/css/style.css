@@ -78,7 +78,7 @@ p {
    margin: 10px;
    border-radius: 5px;
  }
-
+ 
  .start-btn:hover, .back-btn:hover, .play-btn:hover, .next-btn:hover, .end-btn:hover {
     color: white;
     background-color: black;
