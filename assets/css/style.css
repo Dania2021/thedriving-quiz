@@ -10,7 +10,7 @@
 body {
     background-image: url('../images/car-pic.jpg');
     background-size: cover;
-    background-color: black;
+    background-color: #000000;
     font-family: 'Quicksand',sans-serif;
     padding: 0;
     margin: 0;
@@ -89,8 +89,8 @@ p {
    margin-left: 105px;
  }
  .start-btn:hover, .back-btn:hover, .play-btn:hover, .next-btn:hover, .end-btn:hover, .again-btn:hover {
-    color: white;
-    background-color: black;
+    color: #FFFFFF;
+    background-color: #000000;
  }
 
  /*Hide from Display*/
@@ -125,12 +125,12 @@ p {
   /*Style right and wrong buttons*/
   .right {
    background: #32CD32;
-   color: #ffff;
-   border: #ffff 1px solid;
+   color: #FFFFFF;
+   border: #FFFFFF 1px solid;
  }
 
  .wrong {
    background: #FF0000;
-   color: #ffff;
-   border: #ffff 1px solid
+   color: #FFFFFF;
+   border: #FFFFFF 1px solid
  }
