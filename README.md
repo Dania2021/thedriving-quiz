@@ -14,7 +14,7 @@ Visit the deployed site [The Driving Quiz](https://dania2021.github.io/thedrivin
   * [Colour Scheme](#colour-scheme)
   * [Typography](#typography)
   * [Imagery](#imagery)
-  * Wireframes
+  * [Wireframes](#wireframes)
   * Features
      * Home Page
      * How to Play
@@ -75,4 +75,16 @@ Visit the deployed site [The Driving Quiz](https://dania2021.github.io/thedrivin
 
   As the website is called The Driving Quiz, I wanted to use an image of cars driving on road as a background image to give the user the feeling that they are participating in a driving quiz.
 
-  
+  ### Wireframes
+
+  Wireframes were created for mobile, tablet and desktop using balsamiq.
+
+  ![Home page wireframe](/assets/readme-images/home-page-wireframe.png "Home page wireframe")
+
+  ![How to play wireframe](/assets/readme-images/how-to-play-wireframe.png "How to play wireframe")
+
+  ![Quiz wireframe](/assets/readme-images/quiz-wireframe.png "Quiz wireframe")
+
+  ![End game wireframe](/assets/readme-images/end-game-wireframe.png "End game wireframe")
+
+
