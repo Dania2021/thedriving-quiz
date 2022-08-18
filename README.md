@@ -10,10 +10,10 @@ Visit the deployed site [The Driving Quiz](https://dania2021.github.io/thedrivin
 ## CONTENTS
 * [User Experience](#user-experience-ux)
   * [User Stories](#user-stories)
-* Design
-  * Colour Scheme
-  * Typography
-  * Imagery
+* [Design](#design)
+  * [Colour Scheme](#colour-scheme)
+  * [Typography](#typography)
+  * [Imagery](#imagery)
   * Wireframes
   * Features
      * Home Page
@@ -50,3 +50,29 @@ Visit the deployed site [The Driving Quiz](https://dania2021.github.io/thedrivin
   * As a user I want the application to be easily operated with conventional functions.
   * As a user I want the application to be a reliable learning resource that is both functional and intuitive.
 
+## Design
+
+  ### Colour Scheme
+  
+  As the page of the site have a background image, I wanted to keep the colour scheme used on the site quite small so as to not overwhelm users. The colours used for the quiz are intended to convey meaning and provide a visual aid to the user.
+
+  * I have used #646464 as the overlay used over the sites background image.
+  * I have used #32CD32 to display the right answer.
+  * I have used #FF0000 to display the wrong answer.
+  * I have used #FFFFFF for navigation button elements and #000000 text to provide better contrast.
+  * I have used #FFFFFF for answer buttons and #000000 text to provide better contrast.
+
+  ![Colour palette](/assets/readme-images/color-palette.JPG "Colour palette")
+
+  ### Typography
+
+  Google Fonts was used to import the chosen fonts for use in the site.
+
+  * For the title of the page I have used google font Oswald.
+  * For the body of the page I have used Quicksand. Quicksand is a sans-serif font which has lovely clean lines. I have chosen to use a sans-serif font for the body of the page as studies have found that sans-serif fonts are generally more legible to read on a screen.
+
+  ### Imagery
+
+  As the website is called The Driving Quiz, I wanted to use an image of cars driving on road as a background image to give the user the feeling that they are participating in a driving quiz.
+
+  
