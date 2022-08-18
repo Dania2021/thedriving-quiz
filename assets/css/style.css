@@ -86,7 +86,7 @@ p {
  }
  
  .again-btn {
-   margin-left: 105px;
+   margin-left: 55px;
  }
  .start-btn:hover, .back-btn:hover, .play-btn:hover, .next-btn:hover, .end-btn:hover, .again-btn:hover {
     color: #FFFFFF;
@@ -134,3 +134,40 @@ p {
    color: #FFFFFF;
    border: #FFFFFF 1px solid
  }
+
+ /*---------- MEDIA QUERIES ----------*/
+ /*Mobile devices*/
+@media only screen and (min-width : 320px) {
+  .title {
+     font-size: 200%;
+  }
+  h2 {
+     font-size: 150%;
+  }
+  #end-quote {
+    font-size: 100%;
+  }
+  #question {
+     font-size: 100%;
+  }
+  .intro-text {
+     font-size: 85%;
+  }
+  .start-btn, .back-btn, .play-btn, .next-btn, .end-btn, .again-btn {
+     font-size: 0.75rem;
+  }
+  p {
+  font-size: 75%;
+  }
+  p.question-area, p.score-area, p.timer-area {
+  font-size: 75%;
+  }
+
+  .ans-btn {
+   font-size: 70%; 
+   font-weight: bold;
+   }
+  .question-container {
+   padding: 10px;
+  }
+}
