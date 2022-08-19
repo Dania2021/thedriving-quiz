@@ -125,6 +125,10 @@ p {
     padding: 10px;
     width: 100%;
   }
+  .ans-btn:hover {
+   transition: transform 150ms;
+   transform: scale(1.02);
+ }
 
   /*Style right and wrong buttons*/
   .right {
