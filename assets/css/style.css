@@ -175,3 +175,27 @@ p {
    padding: 10px;
   }
 }
+
+/*Tablets*/
+@media only screen and (min-width : 481px) {
+  .title {
+     font-size: 200%;
+  }
+  h2 {
+     font-size: 250%;
+  }
+  #end-quote {
+     font-size: 150%;
+  }
+  .intro-text {
+     font-size: 100%;
+  }
+ .start-btn, .back-btn, .play-btn, .again-btn, .end-btn, .next-btn {
+  font-size: 1rem;
+  }
+ .ans-btn {
+  font-size: 80%; 
+  font-weight: bold;
+  }
+}
+
