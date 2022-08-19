@@ -143,10 +143,10 @@ p {
  /*Mobile devices*/
 @media only screen and (min-width : 320px) {
   .title {
-     font-size: 200%;
+     font-size: 150%;
   }
   h2 {
-     font-size: 150%;
+     font-size: 80%;
   }
   #end-quote {
     font-size: 100%;
@@ -155,10 +155,10 @@ p {
      font-size: 100%;
   }
   .intro-text {
-     font-size: 85%;
+     font-size: 65%;
   }
   .start-btn, .back-btn, .play-btn, .next-btn, .end-btn, .again-btn {
-     font-size: 0.75rem;
+     font-size: 0.65rem;
   }
   p {
   font-size: 75%;
@@ -176,13 +176,28 @@ p {
   }
 }
 
+@media only screen and (min-width : 375px) {
+   .title {
+      font-size: 175%;
+   }
+   h2 {
+      font-size: 100%;
+   }
+   .intro-text {
+      font-size: 75%;
+   }
+   .start-btn, .back-btn, .play-btn, .next-btn, .end-btn, .again-btn {
+      font-size: 0.75rem;
+   }
+}
+
 /*Tablets*/
 @media only screen and (min-width : 481px) {
   .title {
-     font-size: 200%;
+     font-size: 220%;
   }
   h2 {
-     font-size: 250%;
+     font-size: 200%;
   }
   #end-quote {
      font-size: 150%;
