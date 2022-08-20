@@ -87,4 +87,26 @@ Visit the deployed site [The Driving Quiz](https://dania2021.github.io/thedrivin
 
   ![End game wireframe](/assets/readme-images/end-game-wireframe.png "End game wireframe")
 
+## Technologies Used
 
+  * ### Languages Used
+
+     HTML5, CSS3 and JavaScript were used.
+
+  * ### Framework, Libraries & Programs Used
+
+     * [Balsamiq](https://balsamiq.com/) - Used to create wireframes.
+
+     * [Git](https://git-scm.com/) - Used for version control.
+     
+     * [Github](https://github.com/) - Used to save and store the files for website.
+
+     * [GitPod](https://gitpod.io/workspaces) - IDE used to create the site.
+
+     * [Google Fonts](https://fonts.google.com/) - To import the fonts used on website.
+
+     * [Google Developer Tools](https://developer.chrome.com/docs/) - To troubleshoot and test features, solve issues with responsiveness and styling.
+
+     * [Favicon](https://favicon.io/) - To create favicon. 
+
+     * [Am I Responsive?](https://ui.dev/amiresponsive?)  To show the website image on a range of devices.
