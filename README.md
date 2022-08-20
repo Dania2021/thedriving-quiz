@@ -21,14 +21,14 @@ Visit the deployed site [The Driving Quiz](https://dania2021.github.io/thedrivin
      * Quiz
      * End
   * Accessibility
-* Technologies Used
-  * Languages Used
-  * Frameworks, Libraries & Programs Used
-* Deployment & Local Development
-  * Deployment
-  * Local Develpoment
-    * How to Fork
-    * How to Clone
+* [Technologies Used](#technologies-used)
+  * [Languages Used](#languages-used)
+  * [Frameworks, Libraries & Programs Used](#framework-libraries--programs-used)
+* [Deployment & Local Development](#deployment--local-development)
+  * [Deployment](#deloyment)
+  * [Local Develpoment](#local-development)
+    * [How to Fork](#how-to-fork)
+    * [How to Clone](#how-to-clone)
 * Testings
   * Validator Tests
   * Lighthouse Tests
@@ -110,3 +110,42 @@ Visit the deployed site [The Driving Quiz](https://dania2021.github.io/thedrivin
      * [Favicon](https://favicon.io/) - To create favicon. 
 
      * [Am I Responsive?](https://ui.dev/amiresponsive?)  To show the website image on a range of devices.
+
+
+## Deployment & Local Development
+
+  * ### Deloyment
+
+    The Driving Quiz repository is stored on GitHub. The site was created using GitPod and the live site is hosted on GitHub Pages. This is a guide to deploy a site on GitHub Pages using GitHub.
+ 
+    1. Log in (or sign up) to Github.
+    2. Go to the repository for this project, [Dania2021/thedriving-quiz](https://github.com/Dania2021/thedriving-quiz).
+    3. Click on the Settings link.
+    4. Click on the Pages link in the left hand side navigation bar.
+    5. Under source, select branch:main, leave the folder on root and click save.
+    6. Your live Github Pages site is now deployed at the URL shown.
+
+  * ### Local Development
+
+    #### How to Fork
+
+    To fork the TheDriving-Quiz repository:
+
+    1. Log in (or sign up) to Github.
+    2. Go to the repository for this project, [Dania2021/thedriving-quiz](https://github.com/Dania2021/thedriving-quiz).
+    3. Click the Fork button in the top right corner.
+
+    #### How to Clone  
+      
+    To clone the The Driving-Quiz repository:
+
+    1. Log in (or sign up) to GitHub.
+    2. Go to the repository for this project, [Dania2021/thedriving-quiz](https://github.com/Dania2021/thedriving-quiz).
+    3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+    4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+    5. Type git clone into the command line and then paste the URL copied from GitHub.
+    6. Press enter and the local repository clone will be created.  
+
+   
+
+  
