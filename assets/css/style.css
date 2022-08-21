@@ -242,7 +242,7 @@ p {
       display: none;
    }
       body {
-         background: url('/assets/images/car-pic.webp');
+         background: url('assets/images/car-pic.webp');
          background-size: cover;
          background-color: #000000;
       }
