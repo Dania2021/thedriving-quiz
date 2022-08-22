@@ -15,10 +15,10 @@ Visit the deployed site [The Driving Quiz](https://dania2021.github.io/thedrivin
   * [Typography](#typography)
   * [Imagery](#imagery)
   * [Wireframes](#wireframes)
-  * Features
-     * Home Page
-     * How to Play
-     * Quiz
+  * [Features](#features)
+     * [Home Page](#home-page)
+     * [How to Play](#how-to-play)
+     * [Quiz](#quiz)
      * End
   * Accessibility
 * [Technologies Used](#technologies-used)
@@ -114,9 +114,35 @@ Visit the deployed site [The Driving Quiz](https://dania2021.github.io/thedrivin
   ![Container](/assets/readme-images/container-img.png "Container")
 
   
+### How to Play
+  The how to play text elements is added using javascript when the how to play button is clicked. It helps the user to understand the nature of quiz before starting. It has a back button to navigate back to the main landing page when the user is ready to start the quiz.
 
+   ![How to Play](/assets/readme-images/how-to-play-img.png "How to play")
 
+### Quiz
+  The quiz section is the main section of The Driving Quiz. This section is displayed when the user click the start button.The quiz contents are all held within a container which is hidden until the start button is clicked.
+  
+  The quiz section contains the question and the 4 answer choices. When a user selects an answer,they will then be prevented from selecting any more answers. The button selected will change styles depending on whether the answer selected was right or wrong. 
+   
+   ![Quiz](/assets/readme-images/quiz-img.png "Quiz")
 
+   * #### Question Counter
+       The Question Counter is displayed at the top left corner of the quiz container. This counter increases as the user continues through the quiz, each time when the user clicks the next button to go to the next question. 
+
+   ![Question Counter](/assets/readme-images/question-no-img.png "Question Counter")
+
+   * #### Timer
+       The timer is displayed at the center of the quiz container. The timer value is updated every second using timercount function of javascript. This function check if the timer hits 0, then the interval timer is cleared and the timer stops.
+
+      ![Timer](/assets/readme-images/timer-img.png "Timer")
+
+   * #### Score Counter
+
+       The Score Counter is displayed at the top right corner of the quiz container. If the answer selected was right, the score counter will add 10 to the score.
+
+        ![Score Counter](/assets/readme-images/score-img.png "Score")
+
+  
 ## Technologies Used
 
   * ### Languages Used
