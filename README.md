@@ -71,10 +71,6 @@ Visit the deployed site [The Driving Quiz](https://dania2021.github.io/thedrivin
   * For the title of the page I have used google font Oswald.
   * For the body of the page I have used Quicksand. Quicksand is a sans-serif font which has lovely clean lines. I have chosen to use a sans-serif font for the body of the page as studies have found that sans-serif fonts are generally more legible to read on a screen.
 
-  ### Imagery
-
-  As the website is called The Driving Quiz, I wanted to use an image of cars driving on road as a background image to give the user the feeling that they are participating in a driving quiz.
-
   ### Wireframes
 
   Wireframes were created for mobile, tablet and desktop using balsamiq.
@@ -86,6 +82,40 @@ Visit the deployed site [The Driving Quiz](https://dania2021.github.io/thedrivin
   ![Quiz wireframe](/assets/readme-images/quiz-wireframe.png "Quiz wireframe")
 
   ![End game wireframe](/assets/readme-images/end-game-wireframe.png "End game wireframe")
+
+
+## Features
+
+   The Driving Quiz contains many features that are designed to enhance the user experience. These features are designed to conform to the best practices of user experience design and accessibility.
+
+   All Pages on the website are responsive and have:
+
+   * ### Favicon
+     A favicon in the browser tab.
+
+       ![Favicon](/assets/readme-images/favicon-img.png "Favicon")
+
+   * ### Title
+       The title of the site at the top of every page. This title also acts as a link back to the home page.
+
+  ![Title](/assets/readme-images/title-img.png "Title")
+
+   * ### Background
+       The background is used throughout all sections of the site to provide consistency. The background have video for large screens and an image for tablets and mobile devices. I want to use video or image as an background to give the user the feeling that they are participating in a driving quiz.
+
+  ### Home Page  
+   The home page is the main landing page of The Driving Quiz. The home page of The Driving Quiz displays the sites name as a title and a container. This page displayed first to the user when they open or refresh the page.
+
+   ![Home page](/assets/readme-images/home-page-img.png "Home Page")
+
+
+  This container is centralised in the middle of the screen on larger screens and is responsive for smaller screen sizes. It holds some welcome text, including alerting the users that they can navigate back to the home page at any time by clicking on the page name. Below this are two buttons, how to play and start.
+
+  ![Container](/assets/readme-images/container-img.png "Container")
+
+  
+
+
 
 ## Technologies Used
 
