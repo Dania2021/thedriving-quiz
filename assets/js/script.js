@@ -51,7 +51,16 @@ function howToPlay() {
 
   // BACK TO HOME FUNCTION
   function backToHome(){
-  window.open('index.html', '_self');
+    introText.classList.remove('hide');
+    back.classList.add('hide');
+    heading.classList.remove('hide');
+    start.classList.remove('hide');
+    play.classList.remove('hide');
+    intro.innerHTML = `
+      <h2 class="sub-heading"><i class="fa-solid fa-car-side"></i> Welcome to the Driving Quiz <i class="fa-solid fa-car-side"></i></h2>
+      <p class="intro-text">Do you want to test yourself how much you know about driving?<br><br>
+      Use the button below to navigate to the page you would like to view. You can return to this home page by simply clicking the title on the top of each page.</p>
+    `;
   }
 
   // QUESTIONS ARRAY
