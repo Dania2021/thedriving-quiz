@@ -31,7 +31,7 @@ back.addEventListener('click', backToHome);
 start.addEventListener('click', startGame);
 next.addEventListener('click', nextQuestion);
 end.addEventListener('click', endGame);
-playAgain.addEventListener('click', backToHome);
+playAgain.addEventListener('click', againPlay);
 
 // HOW TO PLAY FUNCTION
 function howToPlay() {
@@ -317,3 +317,8 @@ for (let answer of answerBtn) {
          endQuote.innerHTML = 'Excellent, you played very well';
        }
  }    
+
+ //FUNCTION PLAY AGAIN 
+ function againPlay() {
+  window.open('index.html', '_self');
+ }
