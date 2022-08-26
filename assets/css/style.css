@@ -41,9 +41,10 @@ body {
    }
 }
 
- /*Style Home page intro text container*/
+ /*Style Home page intro text container, question-container and end container*/
  .outer-container, .question-container, .end-container {
-    width: 80%;
+    width: 90%;
+    max-width: 600px;
     background-color: #646464;
     border-radius: 5px;
     padding: 20px;
@@ -53,18 +54,20 @@ body {
  }
 
  /*Style title*/
- .title {
-    color: #ffff;
+ h1 {
+   color: #ffff;
    font-family: 'Oswald',sans-serif;
-    font-size: 300%;
-   text-decoration: none;
+    font-size: 250%;
    text-align: center;
 }
+.title {
+    text-decoration: none;
+}
 
-/*Style sub-heading*/
+/*Style sub-heading and end-quote*/
 h2 {
-    font-size: 225%;
-    font-weight: bold;
+    font-size: 200%;
+    font-weight: 700;
     text-align: center;
 }
 
@@ -75,14 +78,15 @@ h2 {
 }
 
 /*Style how to play*/
-p {
-    font-size: 100%;
-    font-weight: bold;
+.how-to {
+    font-size: 120%;
+    font-weight: 600;
  }
 
 /*Style introduction text*/
-.intro-text {
-    font-size: 150%;
+p.intro-text {
+    font-size: 120%;
+    font-weight: 600;
     text-align: center;
 }
 
@@ -125,18 +129,23 @@ p {
    justify-content: space-between;
   }
  
-  p.question-area, p.score-area, p.timer-area {
+  #question-area, #score-area, #timer-area {
     font-size: 100%;
+    font-weight: 600;
   }
  
+  h2#question {
+   font-size: 200%;
+   font-weight: 700;
+  }
   /*Style answer buttons*/
-  .ans-btn {
+  button.ans-btn {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     gap: 20px;
     font-family: 'Quicksand', sans-serif;
-    font-size: 150%;
+    font-size: 100%;
     font-weight: bold;
     color: #000000;
     background-color: #FFFFFF;
@@ -169,34 +178,31 @@ p {
      font-size: 150%;
   }
   h2 {
-     font-size: 80%;
+     font-size: 90%;
   }
   #end-quote {
     font-size: 100%;
   }
-  #question {
-     font-size: 100%;
+  h2#question {
+     font-size: 90%;
   }
-  .intro-text {
-     font-size: 65%;
+  p.intro-text, .how-to {
+     font-size: 75%;
   }
   .start-btn, .back-btn, .play-btn, .next-btn, .end-btn, .again-btn {
      font-size: 0.65rem;
   }
-  p {
+  #question-area, #score-area, #timer-area {
   font-size: 75%;
   }
-  p.question-area, p.score-area, p.timer-area {
-  font-size: 75%;
-  }
-
-  .ans-btn {
+  button.ans-btn {
    font-size: 70%; 
    font-weight: bold;
    }
   .question-container {
-   padding: 10px;
-  }
+      padding: 10px;
+      width: 300px;
+ }
 }
 
 @media only screen and (min-width : 375px) {
@@ -206,12 +212,13 @@ p {
    h2 {
       font-size: 100%;
    }
-   .intro-text {
-      font-size: 75%;
-   }
+   
    .start-btn, .back-btn, .play-btn, .next-btn, .end-btn, .again-btn {
       font-size: 0.75rem;
    }
+   .again-btn {
+      margin-left: 75px;
+     }
 }
 
 /*Tablets*/
@@ -219,21 +226,38 @@ p {
   .title {
      font-size: 220%;
   }
+  .outer-container {
+   margin-bottom: 40px;
+    margin-left: 30px;
+  }
+  
   h2 {
      font-size: 200%;
   }
+  p.intro-text, .how-to {
+   font-size: 100%;
+}
   #end-quote {
      font-size: 150%;
-  }
-  .intro-text {
-     font-size: 100%;
   }
  .start-btn, .back-btn, .play-btn, .again-btn, .end-btn, .next-btn {
   font-size: 1rem;
   }
- .ans-btn {
-  font-size: 80%; 
+  .again-btn {
+   margin-left: 90px;
+  }
+  #question-area, #score-area, #timer-area {
+   font-size: 90%;
+  }
+  h2#question {
+   font-size: 120%;
+  }
+  button.ans-btn {
+  font-size: 100%; 
   font-weight: bold;
+  }
+  .question-container {
+   width: 600px;
   }
 }
 
@@ -246,4 +270,7 @@ p {
          background-size: cover;
          background-color: #000000;
       }
+      .outer-container, .question-container, .end-container {
+         opacity: 0.9;
+        }
    }

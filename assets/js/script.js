@@ -41,11 +41,11 @@ function howToPlay() {
     start.classList.add('hide');
     play.classList.add('hide');
     intro.innerHTML = `<h2>How to play</h2>
-        <p>There are fifteen questions related on how to drive in Ireland</p>
-        <p>You have 60 seconds to choose your answer you think is correct</p>
-        <p>You get 10 points for each correct answer</p>
-        <p>When the next button appears, click it to continue to the next question</p>
-        <p>When the end button appears, click it to end the quiz</p>
+        <p class="how-to">There are fifteen questions related on how to drive in Ireland</p>
+        <p class="how-to">You have 60 seconds to choose your answer you think is correct</p>
+        <p class="how-to">You get 10 points for each correct answer</p>
+        <p class="how-to">When the next button appears, click it to continue to the next question</p>
+        <p class="how-to">When the end button appears, click it to end the quiz</p>
       `;
   }
 
