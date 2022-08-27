@@ -25,6 +25,7 @@ body {
    right: 0;
    bottom: 0;
    z-index: -1;
+   object-fit: cover;
    }
 
 @media (min-aspect-ratio: 16/9) {
@@ -159,13 +160,13 @@ p.intro-text {
  }
 
   /*Style right and wrong buttons*/
-  .right {
+  button.right {
    background: #32CD32;
    color: #FFFFFF;
    border: #FFFFFF 1px solid;
  }
 
- .wrong {
+ button.wrong {
    background: #FF0000;
    color: #FFFFFF;
    border: #FFFFFF 1px solid
