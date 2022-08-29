@@ -102,7 +102,7 @@ Visit the deployed site [The Driving Quiz](https://dania2021.github.io/thedrivin
 
   ![Title](/assets/readme-images/title-img.png "Title")
 
-  ### Home Page  
+   ### Home Page  
    The home page is the main landing page of The Driving Quiz. The home page of The Driving Quiz displays the sites name as a title and a container. This page displayed first to the user when they open or refresh the page.
 
    ![Home page](/assets/readme-images/home-page-img.png "Home Page")
@@ -113,12 +113,12 @@ Visit the deployed site [The Driving Quiz](https://dania2021.github.io/thedrivin
   ![Container](/assets/readme-images/container-img.png "Container")
 
   
-### How to Play
+  ### How to Play
   The how to play text elements is added using javascript when the how to play button is clicked. It helps the user to understand the nature of quiz before starting. It has a back button to navigate back to the main landing page when the user is ready to start the quiz.
 
    ![How to Play](/assets/readme-images/how-to-play-img.png "How to play")
 
-### Quiz
+  ### Quiz
   The quiz section is the main section of The Driving Quiz. This section is displayed when the user click the start button.The quiz contents are all held within a container which is hidden until the start button is clicked.
   
   The quiz section contains the question and the 4 answer choices. 
@@ -162,12 +162,24 @@ Visit the deployed site [The Driving Quiz](https://dania2021.github.io/thedrivin
 
       ![Next and End Button image](/assets/readme-images/next-end-button.png "Next and End button image")
 
-### End 
+  ### End 
   The end section is the last section of The Driving Quiz site. It is the section navigated to after the user clicks the end button on the quiz. Then it displays the user score with a quote. There are 5 different types of quote, one if the user run out of time and other four depends on user score. It has a play again button to navigate back to the home page.
 
   ![Sorry Quote image](/assets/readme-images/sorry-img.png "Sorry Quote image")
 
   ![End Game image](/assets/readme-images/end-game-img.png "End Game image")
+
+## Accessibility
+  I have been mindful during coding to ensure that the website is as accessible friendly as possible. This has been have achieved by:
+
+  * Using semantic HTML.
+  * Using a hover state on all buttons on the site to make it clear to the user if they are hovering over a button.
+  * Choosing a sans serif font for the site - these fonts are suitable for people with dyslexia.
+  * Ensuring that there is a sufficient colour contrast throughout the site.
+ 
+ ![Button Contrast image](/assets/readme-images/button-img.png "Button Contrast image")
+
+  In a future implementation I think it would be a great accessibility feature to also add a symbol such as a tick or cross on the answer button to enable people who are colour blind to also be able to access the quiz easier, as the site relies on colour to display to the user whether an answer is right or wrong.
 
 ## Technologies Used
 
