@@ -101,7 +101,7 @@ Visit the deployed site [The Driving Quiz](https://dania2021.github.io/thedrivin
   ![Title](/assets/readme-images/title-img.png "Title")
 
    * ### Background
-       The background is used throughout all sections of the site to provide consistency. The background have video for large screens and an image for tablets and mobile devices. I want to use video or image as an background to give the user the feeling that they are participating in a driving quiz.
+       The background is used throughout all sections of the site to provide consistency. The background have video for large screens and an image for tablet and mobile devices. We usually do not want to play the video on mobile due to high data cost, so we make the display property none of video on devices of max-width 768px. I want to use video or image as an background to give the user the feeling that they are participating in a driving quiz.
 
   ### Home Page  
    The home page is the main landing page of The Driving Quiz. The home page of The Driving Quiz displays the sites name as a title and a container. This page displayed first to the user when they open or refresh the page.
