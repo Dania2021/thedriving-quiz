@@ -71,6 +71,10 @@ Visit the deployed site [The Driving Quiz](https://dania2021.github.io/thedrivin
   * For the title of the page I have used google font Oswald.
   * For the body of the page I have used Quicksand. Quicksand is a sans-serif font which has lovely clean lines. I have chosen to use a sans-serif font for the body of the page as studies have found that sans-serif fonts are generally more legible to read on a screen.
 
+  ### Video/Imagery
+
+  It is used throughout sections of the site to provide consistency. The background have video for large screens and an image for tablet and mobile devices. We usually do not want to play the video on mobile due to high data cost, so we make the display property none of video on devices of max-width 768px. I want to use video or image as an background to give the user the feeling that they are participating in a driving quiz.
+
   ### Wireframes
 
   Wireframes were created for mobile, tablet and desktop using balsamiq.
@@ -90,18 +94,13 @@ Visit the deployed site [The Driving Quiz](https://dania2021.github.io/thedrivin
 
    All Pages on the website are responsive and have:
 
-   * ### Favicon
-     A favicon in the browser tab.
+   * A favicon in the browser tab.
 
        ![Favicon](/assets/readme-images/favicon-img.png "Favicon")
 
-   * ### Title
-       The title of the site at the top of every page. This title also acts as a link back to the home page.
+   * The title of the site at the top of every page. This title also acts as a link back to the home page.
 
   ![Title](/assets/readme-images/title-img.png "Title")
-
-   * ### Background
-       The background is used throughout all sections of the site to provide consistency. The background have video for large screens and an image for tablet and mobile devices. We usually do not want to play the video on mobile due to high data cost, so we make the display property none of video on devices of max-width 768px. I want to use video or image as an background to give the user the feeling that they are participating in a driving quiz.
 
   ### Home Page  
    The home page is the main landing page of The Driving Quiz. The home page of The Driving Quiz displays the sites name as a title and a container. This page displayed first to the user when they open or refresh the page.
