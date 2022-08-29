@@ -162,6 +162,12 @@ Visit the deployed site [The Driving Quiz](https://dania2021.github.io/thedrivin
 
       ![Next and End Button image](/assets/readme-images/next-end-button.png "Next and End button image")
 
+### End 
+  The end section is the last section of The Driving Quiz site. It is the section navigated to after the user clicks the end button on the quiz. Then it displays the user score with a quote. There are 5 different types of quote, one if the user run out of time and other four depends on user score. It has a play again button to navigate back to the home page.
+
+  ![Sorry Quote image](/assets/readme-images/sorry-img.png "Sorry Quote image")
+
+  ![End Game image](/assets/readme-images/end-game-img.png "End Game image")
 
 ## Technologies Used
 
