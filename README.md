@@ -122,7 +122,7 @@ Visit the deployed site [The Driving Quiz](https://dania2021.github.io/thedrivin
 ### Quiz
   The quiz section is the main section of The Driving Quiz. This section is displayed when the user click the start button.The quiz contents are all held within a container which is hidden until the start button is clicked.
   
-  The quiz section contains the question and the 4 answer choices. When a user selects an answer,they will then be prevented from selecting any more answers. The button selected will change styles depending on whether the answer selected was right or wrong. 
+  The quiz section contains the question and the 4 answer choices. 
    
    ![Quiz](/assets/readme-images/quiz-img.png "Quiz")
 
@@ -142,7 +142,28 @@ Visit the deployed site [The Driving Quiz](https://dania2021.github.io/thedrivin
 
         ![Score Counter](/assets/readme-images/score-img.png "Score")
 
-  
+   * #### Question
+
+       The question element is a text element that is displayed in a larger and bolder font and centralised in the container. The question element is saved within an object within the javascript question array. 
+
+       ![Question image](/assets/readme-images/question-img.png "Question image")
+
+   
+   * #### Answer Buttons
+
+      There are four buttons, each with one answer option which contains text  from the selected question object in the questions array. Event listeners are removed from all the answer buttons when a choice is made. The button selected will change styles depending on whether the answer selected was right or wrong. The buttons have a hover effect a scale of 1.02.
+
+      ![Right Answer image](/assets/readme-images/right-img.png "Right Answer image")
+
+       ![Wrong Answer image](/assets/readme-images/wrong-img.png "Wrong Answer image")
+
+   * #### Navigational Buttons
+
+       The quiz section features two navigational buttons. These buttons are next and end. The next button is hidden but becomes visible when a user makes a choice for a question. The next button is used to move the user to the next question in the questions array. When the next button is clicked a new question is displayed on the elements of the quiz section and the previous question is removed from the question array. The length of the quiz is 15 questions long. The if statement checks if the array length is equal to 14 and if it is knows the user has reached the last question. At this time the end button is displayed instead of the next button. When the end button is clicked the user is sent to the end section and the quiz container and all its elements are hidden from display. All buttons are consistent in styling with previous buttons. 
+
+      ![Next and End Button image](/assets/readme-images/next-end-button.png "Next and End button image")
+
+
 ## Technologies Used
 
   * ### Languages Used
