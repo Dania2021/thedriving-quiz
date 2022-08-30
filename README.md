@@ -240,6 +240,141 @@ Visit the deployed site [The Driving Quiz](https://dania2021.github.io/thedrivin
     5. Type git clone into the command line and then paste the URL copied from GitHub.
     6. Press enter and the local repository clone will be created.  
 
-   
 
-  
+## Testing
+  Testing was ongoing throughout the entire build. I utilised Chrome developer tools whilst building to pinpoint and troubleshoot any issues as I went along. During development I made use of google developer tools to ensure everything was working correctly and to assist with troubleshooting when things were not working as.
+
+  * ### Validator Tests
+       [The W3C HTML Markup Validation Service](https://validator.w3.org/) was used to validate the index.html page of the website and passed showing no errors and warnings.
+
+      ![Index Page Validator Test image](/assets/readme-images/quiz-html-validator.png "Index Page Validator Test image")
+ 
+
+       [The W3C CSS Markup Validation Service](https://jigsaw.w3.org/css-validator/) was used to to validate the style.css CSS Document and passed showing no errors.
+
+      ![CSS Document Validator Test image](/assets/readme-images/quiz-css-validator.png "CSS Document Validator Test image")
+
+       [ JSHint Javascript Validation Service](https://jshint.com/)  was used to validate the script.js Javascript Document and passed showing no errors and warnings.
+   
+      ![JavaScript Document Validator Test image](/assets/readme-images/js-validator-test.png "JavaScript Document Validator Test image")
+
+  * ### Lighthouse Tests
+      I used Lighthouse within the Chrome Developer Tools to test the performance, accessibility, best practices and SEO of the website.
+
+       * Desktop Result
+       ![Index Page Desktop Lighthouse Test](/assets/readme-images/lighthouse-desktop.png "Index Page Desktop Lighthouse Test")
+ 
+      * Mobile Result
+      ![Index Page Mobile Lighthouse Test](/assets/readme-images/lighthouse-mobile.png "Index Page Mobile Lighthouse Test")
+ 
+
+  * ### Browser Compatibility
+      The Driving Quiz was tested on a multitude of different browsers to check for any compatibility issues. Browser compatibility tests were conducted on Google Chrome, Safari and Firefox with no visible issues apparent in layout, appearance, or functionality. Responsiveness was also consistent across all browsers.
+
+  * ### Manual Testing
+      
+      #### Testing User Stories
+
+      * The Driving Quiz gives basic knowledge of how to drive a car.
+      * I have developed the site with responsiveness in mind.
+      * Buttons are used throughout the site for navigation, much like a mobile app.
+      * I decided that I didn't want to add a navigation bar or footer, as these would make the site look more like a traditional webpage. The page title also acts as a link to the home page.
+      * The site is available for use whenever is convenient to the user.
+
+
+     #### Full Testing
+
+     I performed the following testing using a number of devices (Samsung Galaxy S8, iPhone 13, iPhone 7, HP 15 Notebook, Lenevo Think Pad)
+
+      Home Page
+      * Title 
+          
+          Clicking on the sites title will directs the user back to the home page. 
+
+      * How to play button
+        
+         Clicking on how to play button, hides the buttons and the introduction text. It displays the instructions on how to play the game using javascript. 
+
+      * Back Button
+        
+        Clicking on back button, hides the back button. Instead of instructions, it displays the introduction text and start and how to play buttons. 
+
+      * Start Button
+        
+        Clicking on start button directs the user to the start of quiz. It also hides the outer container and displays the quiz container with the quiz elements. The start button also triggers the questions array to be shuffled and for the first object in the array to be selected as the first question.
+
+      * All buttons(hover effect)
+        
+        All white buttons with black text will change to black with white text when hovered over.	Each button displayed the correct styling when hovered over.
+
+      Start Quiz
+
+        * Title 
+          
+          Clicking on the sites title will directs the user back to the home page. 
+
+        * Question
+
+          The question is being added from the javascript property question from each question object and the question is displaying.
+        * Answers
+
+          The answers are being added from the javascript questions array and answers are displaying.
+
+        * Right Answer Property
+           
+           I am able to check what the right answer is. I can then check whether the property has been applied only to the button containing the right answer.
+
+        * Right Button 
+
+          When a correct answer is clicked the button is changing background colour to green with white text and then the user cannot choose an answer as the evevt listeners for the answer buttons are removed. 
+
+        *  Wrong Button
+
+          When a wrong answer is clicked the button is changing background colour to red with white text and then the user cannot choose an answer as the evevt listeners for the answer buttons are removed. 
+      
+        * Question No Counter
+
+          Each time the next button is clicked the Question no counter increases by 1.
+
+        * Score Counter
+
+         When a right answer was selected the score increased by 10. When a wrong score was selected the score stayed the same.
+
+        * Timer Counter
+
+          The timer value is updated every second. The user cannot choose an answer if the timer runs out as the event listeners for the answer buttons are removed.
+
+        * Next button(becomes visible)
+
+         When an answer is clicked the next button is displaying so the user can progress to the next question, or to the end button if all 15 questions have been answered.
+
+        * Next button hover effect
+
+         A button with a white background & black text is changing to a button with a black background & white text when hovered over.
+
+        * Next button(clicked)
+
+         When clicked all answer styles is remove, the next button is become hidden again and a new question and answer loaded if there are questions left. If all questions have been answered the end button should appear.
+
+        * End Button(clicked)
+
+         Clicking on end button directs the user to the end of quiz. It also hides the quiz container and displays the end container with play again button.
+
+      End Quiz
+
+      * Title 
+          
+          Clicking on the sites title will directs the user back to the home page.
+      
+      * Score
+
+         Score area is populating with the score you have achieved and it displays correctly.
+
+      * Quote
+
+        The end quote is displaying in the end container.
+
+      * Play Again Button
+
+        Clicking on this button will take you back to the home page and is directing back to the home page.
+        
