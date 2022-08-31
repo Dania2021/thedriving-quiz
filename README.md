@@ -15,14 +15,20 @@ Visit the deployed site [The Driving Quiz](https://dania2021.github.io/thedrivin
 * [Design](#design)
   * [Colour Scheme](#colour-scheme)
   * [Typography](#typography)
-  * [Imagery](#imagery)
+  * [Video/Imagery](#videoimagery)
   * [Wireframes](#wireframes)
   * [Features](#features)
      * [Home Page](#home-page)
      * [How to Play](#how-to-play)
      * [Quiz](#quiz)
-     * End
-  * Accessibility
+       * [Question Counter](#question-counter)
+       * [Timer](#timer)
+       * [Score Counter](#score-counter)
+       * [Question](#question)
+       * [Answer Buttons](#answer-buttons)
+       * [Navigational Buttons](#navigational-buttons)
+     * [End](#end)
+  * [Accessibility](#accessibility)
 * [Technologies Used](#technologies-used)
   * [Languages Used](#languages-used)
   * [Frameworks, Libraries & Programs Used](#framework-libraries--programs-used)
@@ -31,17 +37,17 @@ Visit the deployed site [The Driving Quiz](https://dania2021.github.io/thedrivin
   * [Local Develpoment](#local-development)
     * [How to Fork](#how-to-fork)
     * [How to Clone](#how-to-clone)
-* Testings
-  * Validator Tests
-  * Lighthouse Tests
-  * Browser Compatibility
-  * Manual Testing
-  * Bugs
-* Credits
-  * Code Used
-  * Content
-  * Media 
-* Acknowledgements
+* [Testings](#testing)
+  * [Validator Tests](#validator-tests)
+  * [Lighthouse Tests](#lighthouse-tests)
+  * [Browser Compatibility](#browser-compatibility)
+  * [Manual Testing](#manual-testing)
+  * [Bugs](#bugs)
+* [Credits](#credits)
+  * [Code Used](#code-used)
+  * [Content](#content)
+  * [Media](#media) 
+* [Acknowledgements](#acknowledgements)
 
 ## User Experience (UX)
 
