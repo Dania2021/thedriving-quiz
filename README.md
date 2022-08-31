@@ -394,4 +394,20 @@ Visit the deployed site [The Driving Quiz](https://dania2021.github.io/thedrivin
        There is a a warning displaying in the console on the live page. This error seems to be because GitHub hosted pages disable googles 3rd party cookie alternative FLoC, which then throws this error. The error doesn't affect the site in any way.
 
        ![Warning Message image](/assets/readme-images/error.png "Warning Message image")
-        
+
+## Credits
+
+  ### Code Used
+  The code used for the array randomizer is the Fisher-Yates shuffle. I used the following [YouTube tutorial](https://www.youtube.com/watch?v=eATLMjs7y4s&list=PL5egNEXQTWmFHAoWFVRLNAvD-9zzyWVxA&index=3
+) to further adapt the shuffle I had researched on W3Schools to work with the data I had.
+
+  I used this [video tutorial](https://www.youtube.com/watch?v=znqUwx0b0HI) on You Tube by Easy Tutorials to learn how to make video responsive by using media query for aspect ratios.
+
+  ### Content 
+  All questions was collated from [Theory Test Ireland](https://theorytestireland.org/).
+
+  All other content for the site, such as introduction messages, instructions and quotes were written by myself.
+
+  ### Media
+
+  The background video and image are from [Pexels](https://www.pexels.com/).
