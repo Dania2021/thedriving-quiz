@@ -1,5 +1,7 @@
 # THE DRIVING QUIZ
 
+![Title image](/assets/readme-images/main-img.png "Title image")
+
 The Driving Quiz is an online quiz game for those who are learning to drive a car. This game is about making aware of reponsibility on roads currently on Irish Roads. The goal of this website is to provide information about how to drive a car and can test their knowledge with a fun interactive game.
       
 The layout should be easily accessible and intuitive to new users. The project should conform
