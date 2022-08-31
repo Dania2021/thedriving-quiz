@@ -19,7 +19,7 @@ body {
     color: #ffff;
  }
 
- /*Video*/
+/*Video*/
  .back-video {   
    position: absolute;
    right: 0;
@@ -28,6 +28,8 @@ body {
    object-fit: cover;
    }
 
+/*Tutorial used to implement https://www.youtube.com/watch?v=znqUwx0b0HI*/  
+/*Media query for aspect ratio*/
 @media (min-aspect-ratio: 16/9) {
       .back-video {
          width: 100%;
@@ -42,8 +44,8 @@ body {
    }
 }
 
- /*Style Home page intro text container, question-container and end container*/
- .outer-container, .question-container, .end-container {
+/*Style Home page intro text container, question-container and end container*/
+.outer-container, .question-container, .end-container {
     width: 90%;
     max-width: 600px;
     background-color: #646464;
@@ -54,7 +56,7 @@ body {
     margin: auto;
  }
 
- /*Style title*/
+/*Style title*/
  h1 {
    color: #ffff;
    font-family: 'Oswald',sans-serif;
@@ -99,7 +101,7 @@ p.intro-text {
    gap: 30px;
  }
 
- /*Style buttons*/
+/*Style buttons*/
  .start-btn, .back-btn, .play-btn, .next-btn, .end-btn, .again-btn {
    font-size: 150%;
    font-family: 'Quicksand', sans-serif;
@@ -124,22 +126,24 @@ p.intro-text {
     display: none;
  }
 
- /*Style counter area*/
+/*Style counter area*/
  .counter-area {
     display: flex;
    justify-content: space-between;
   }
  
+/*Style Question area, Score area & Timer area*/
   #question-area, #score-area, #timer-area {
     font-size: 100%;
     font-weight: 600;
   }
  
+/*Style Question*/
   h2#question {
    font-size: 200%;
    font-weight: 700;
   }
-  /*Style answer buttons*/
+/*Style answer buttons*/
   button.ans-btn {
     display: flex;
     flex-direction: column;
@@ -172,8 +176,8 @@ p.intro-text {
    border: #FFFFFF 1px solid
  }
 
- /*---------- MEDIA QUERIES ----------*/
- /*Mobile devices*/
+/*---------- MEDIA QUERIES ----------*/
+/*Mobile devices*/
 @media only screen and (min-width : 320px) {
   .title {
      font-size: 150%;
@@ -274,4 +278,4 @@ p.intro-text {
       .outer-container, .question-container, .end-container {
          opacity: 0.9;
         }
-   }
+}
