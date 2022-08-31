@@ -207,6 +207,10 @@ Visit the deployed site [The Driving Quiz](https://dania2021.github.io/thedrivin
 
      * [Google Fonts](https://fonts.google.com/) - To import the fonts used on website.
 
+     * [Birme](https://www.birme.net/?target_width=1000&target_height=1000&no_resize=true&auto_width=true&image_format=webp) - To resize images and convert to webp format.
+
+
+
      * [Google Developer Tools](https://developer.chrome.com/docs/) - To troubleshoot and test features, solve issues with responsiveness and styling.
 
      * [Favicon](https://favicon.io/) - To create favicon. 
