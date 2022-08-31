@@ -411,3 +411,10 @@ Visit the deployed site [The Driving Quiz](https://dania2021.github.io/thedrivin
   ### Media
 
   The background video and image are from [Pexels](https://www.pexels.com/).
+
+## Acknowledgements
+
+ The Driving Quiz was created as my second portfolio project. I would like to thank my mentor Marcel Mulders for his heplful feedback and encouragement throughout the development process. I would also like to thank tutor of code institute for their support. I'd like to thank fellow Code Institute students in May 2022 class at code institute.
+
+ Dania Khanam
+         
