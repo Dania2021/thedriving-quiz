@@ -307,56 +307,56 @@ Visit the deployed site [The Driving Quiz](https://dania2021.github.io/thedrivin
         
         All white buttons with black text will change to black with white text when hovered over.	Each button displayed the correct styling when hovered over.
 
-      Start Quiz
+    Start Quiz
 
-        * Title 
+      * Title 
           
           Clicking on the sites title will directs the user back to the home page. 
 
-        * Question
+      * Question
 
           The question is being added from the javascript property question from each question object and the question is displaying.
-        * Answers
+      * Answers
 
           The answers are being added from the javascript questions array and answers are displaying.
 
-        * Right Answer Property
+       * Right Answer Property
            
            I am able to check what the right answer is. I can then check whether the property has been applied only to the button containing the right answer.
 
-        * Right Button 
+       * Right Button 
 
           When a correct answer is clicked the button is changing background colour to green with white text and then the user cannot choose an answer as the evevt listeners for the answer buttons are removed. 
 
-        *  Wrong Button
+       *  Wrong Button
 
           When a wrong answer is clicked the button is changing background colour to red with white text and then the user cannot choose an answer as the evevt listeners for the answer buttons are removed. 
       
-        * Question No Counter
+       * Question No Counter
 
           Each time the next button is clicked the Question no counter increases by 1.
 
-        * Score Counter
+       * Score Counter
 
          When a right answer was selected the score increased by 10. When a wrong score was selected the score stayed the same.
 
-        * Timer Counter
+       * Timer Counter
 
           The timer value is updated every second. The user cannot choose an answer if the timer runs out as the event listeners for the answer buttons are removed.
 
-        * Next button(becomes visible)
+       * Next button(becomes visible)
 
          When an answer is clicked the next button is displaying so the user can progress to the next question, or to the end button if all 15 questions have been answered.
 
-        * Next button hover effect
+       * Next button hover effect
 
          A button with a white background & black text is changing to a button with a black background & white text when hovered over.
 
-        * Next button(clicked)
+       * Next button(clicked)
 
          When clicked all answer styles is remove, the next button is become hidden again and a new question and answer loaded if there are questions left. If all questions have been answered the end button should appear.
 
-        * End Button(clicked)
+       * End Button(clicked)
 
          Clicking on end button directs the user to the end of quiz. It also hides the quiz container and displays the end container with play again button.
 
@@ -377,4 +377,21 @@ Visit the deployed site [The Driving Quiz](https://dania2021.github.io/thedrivin
       * Play Again Button
 
         Clicking on this button will take you back to the home page and is directing back to the home page.
+
+  * ### Bugs
+    
+       #### Resolved
+        
+       * Players were able to select an answer which would then display whether right or wrong. However they could still click on the answers which meant they could click all the answers to receive the points. I researched a way and then found that I could use remove event listeners. This then allows me to first add event listeners to the buttons when a new question has been populated and once a selection has been made, the event listeners are removed from the answer buttons until the user clicks next to advance onto the next question.
+
+       * Another bug that presented was when the next button was clicked the timer didnot start again from 60 seconds. To resolve this I have added some code in the next question function by assigning the value to timer and time second and set the timer again.
+       
+
+       * One of the bugs was when the play again button was clicked by the user, the quiz don't stop and it was not directing to the home page. To resolve this, a javascript function was created called again play. The again play function sends the user to the index.html home page via window.open. 
+
+       #### Unresolved
+
+       There is a a warning displaying in the console on the live page. This error seems to be because GitHub hosted pages disable googles 3rd party cookie alternative FLoC, which then throws this error. The error doesn't affect the site in any way.
+
+       ![Warning Message image](/assets/readme-images/error.png "Warning Message image")
         
