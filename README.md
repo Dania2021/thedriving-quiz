@@ -2,7 +2,7 @@
 
 ![Title image](/assets/readme-images/main-img.png "Title image")
 
-The Driving Quiz is an online quiz game for those who are learning to drive a car. This game is about making aware of reponsibility on roads currently on Irish Roads. The goal of this website is to provide information about how to drive a car and can test their knowledge with a fun interactive game.
+The Driving Quiz is an online quiz game for those who are learning to drive a car. This game is about making aware of responsibility on roads currently on Irish Roads. The goal of this website is to provide information about how to drive a car and can test their knowledge with a fun interactive game.
       
 The layout should be easily accessible and intuitive to new users. The project should conform
 to the best practices of user experience design, accessibility and responsivity.
@@ -127,7 +127,7 @@ Visit the deployed site [The Driving Quiz](https://dania2021.github.io/thedrivin
    ![How to Play](/assets/readme-images/how-to-play-img.png "How to play")
 
   ### Quiz
-  The quiz section is the main section of The Driving Quiz. This section is displayed when the user click the start button.The quiz contents are all held within a container which is hidden until the start button is clicked.
+  The quiz section is the main section of The Driving Quiz. This section is displayed when the user click the start button. The quiz contents are all held within a container which is hidden until the start button is clicked.
   
   The quiz section contains the question and the 4 answer choices. 
    
@@ -338,11 +338,11 @@ Visit the deployed site [The Driving Quiz](https://dania2021.github.io/thedrivin
 
        * Right Button 
 
-          When a correct answer is clicked the button is changing background colour to green with white text and then the user cannot choose an answer as the evevt listeners for the answer buttons are removed. 
+          When a correct answer is clicked the button is changing background colour to green with white text and then the user cannot choose an answer as the event listeners for the answer buttons are removed. 
 
        *  Wrong Button
 
-          When a wrong answer is clicked the button is changing background colour to red with white text and then the user cannot choose an answer as the evevt listeners for the answer buttons are removed. 
+          When a wrong answer is clicked the button is changing background colour to red with white text and then the user cannot choose an answer as the event listeners for the answer buttons are removed. 
       
        * Question No Counter
 
@@ -403,7 +403,7 @@ Visit the deployed site [The Driving Quiz](https://dania2021.github.io/thedrivin
 
        #### Unresolved
 
-       There is a a warning displaying in the console on the live page. This error seems to be because GitHub hosted pages disable googles 3rd party cookie alternative FLoC, which then throws this error. The error doesn't affect the site in any way.
+       There is a warning displaying in the console on the live page. This error seems to be because GitHub hosted pages disable googles 3rd party cookie alternative FLoC, which then throws this error. The error doesn't affect the site in any way.
 
        ![Warning Message image](/assets/readme-images/error.png "Warning Message image")
 
@@ -426,7 +426,7 @@ Visit the deployed site [The Driving Quiz](https://dania2021.github.io/thedrivin
 
 ## Acknowledgements
 
- The Driving Quiz was created as my second portfolio project. I would like to thank my mentor Marcel Mulders for his heplful feedback and encouragement throughout the development process. I would also like to thank tutor of code institute for their support. I'd like to thank fellow Code Institute students in May 2022 class at code institute.
+ The Driving Quiz was created as my second portfolio project. I would like to thank my mentor Marcel Mulders for his helpful feedback and encouragement throughout the development process. I would also like to thank tutor of code institute for their support. I'd like to thank fellow Code Institute students in May 2022 class at code institute.
 
  Dania Khanam
          
