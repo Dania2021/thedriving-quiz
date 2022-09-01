@@ -67,14 +67,14 @@ body {
     text-decoration: none;
 }
 
-/*Style sub-heading and end-quote*/
+/*Style sub-heading, end-score-text and end-quote*/
 h2 {
     font-size: 200%;
     font-weight: 700;
     text-align: center;
 }
 
-#end-quote {
+#end-quote, #end-score-text {
    font-size: 200%;
    font-weight: bold;
    text-align: center;
@@ -114,7 +114,7 @@ p.intro-text {
  }
  
  .again-btn {
-   margin-left: 55px;
+   margin-left: 95px;
  }
  .start-btn:hover, .back-btn:hover, .play-btn:hover, .next-btn:hover, .end-btn:hover, .again-btn:hover {
     color: #FFFFFF;
@@ -144,7 +144,7 @@ p.intro-text {
    font-weight: 700;
   }
 /*Style answer buttons*/
-  button.ans-btn {
+button.ans-btn {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -157,24 +157,24 @@ p.intro-text {
     border-radius: 5px;
     padding: 10px;
     width: 100%;
-  }
-  .ans-btn:hover {
+}
+.ans-btn:hover {
    transition: transform 150ms;
    transform: scale(1.02);
- }
+}
 
-  /*Style right and wrong buttons*/
-  button.right {
+/*Style right and wrong buttons*/
+button.right {
    background: #32CD32;
    color: #FFFFFF;
    border: #FFFFFF 1px solid;
- }
+}
 
- button.wrong {
+button.wrong {
    background: #FF0000;
    color: #FFFFFF;
    border: #FFFFFF 1px solid
- }
+}
 
 /*---------- MEDIA QUERIES ----------*/
 /*Mobile devices*/
@@ -185,7 +185,7 @@ p.intro-text {
   h2 {
      font-size: 90%;
   }
-  #end-quote {
+  #end-quote, #end-score-text {
     font-size: 100%;
   }
   h2#question {
@@ -208,6 +208,9 @@ p.intro-text {
       padding: 10px;
       width: 300px;
  }
+ .end-container {
+   width: 300px;
+ }
 }
 
 @media only screen and (min-width : 375px) {
@@ -222,7 +225,7 @@ p.intro-text {
       font-size: 0.75rem;
    }
    .again-btn {
-      margin-left: 75px;
+      margin-left: 90px;
      }
 }
 
@@ -242,14 +245,14 @@ p.intro-text {
   p.intro-text, .how-to {
    font-size: 100%;
 }
-  #end-quote {
+  #end-quote, #end-score-text {
      font-size: 150%;
   }
  .start-btn, .back-btn, .play-btn, .again-btn, .end-btn, .next-btn {
   font-size: 1rem;
   }
   .again-btn {
-   margin-left: 90px;
+   margin-left: 220px;
   }
   #question-area, #score-area, #timer-area {
    font-size: 90%;
@@ -261,11 +264,12 @@ p.intro-text {
   font-size: 100%; 
   font-weight: bold;
   }
-  .question-container {
+  .question-container, .end-container {
    width: 600px;
   }
 }
 
+/*Media query for not to display video on tablet and mobile devices, in place of video an image should be displayed*/
 @media screen and (max-width: 768px) {
    .back-video {
       display: none;
